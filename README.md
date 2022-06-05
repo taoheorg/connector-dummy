@@ -6,4 +6,4 @@ The adapters can live their on lives, and implement chain specific functions tha
 
 This can be also used as a template for new adapters, since this is developed with best practices in mind (and as such is freed from all copyrights per the CC0 1.0 license.
 
-Other adapters can be found [here](https://github.com/taoheorg?q=adapter).
+Other adapters can be found [here](https://github.com/topics/move-adapter).
