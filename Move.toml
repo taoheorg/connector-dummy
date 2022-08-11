@@ -1,11 +1,8 @@
 [package]
-name = "Adapter"
+name = "Connector"
 version = "0.0.1"
 authors = ["Ville Sundell / Solarius Intellectual Properties Ky"]
 license = "CC0-1.0"
 
 [addresses]
-Adapter = "0x2f66c09143acc52a85fec529a4e20c85"
-
-[dependencies]
-MoveStdlib = { git = "https://github.com/move-language/move.git", subdir="language/move-stdlib", rev = "56ab033cc403b489e891424a629e76f643d4fb6b", addr_subst = { "Std" = "0x1" } }
+Connector = "0x2f66c09143acc52a85fec529a4e20c85"

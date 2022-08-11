@@ -1,8 +1,8 @@
 // Licenced under CC0 1.0
 // Authors: Ville Sundell / Solarius Intellectual Properties Ky
 
-/// A dummy adapter for simulating a blockchain
-module Adapter::Adapter {
+/// A dummy connector for simulating a blockchain
+module Connector::Connector {
 
     /// Return a timestamp
     public fun current_timestamp(): u64 {
