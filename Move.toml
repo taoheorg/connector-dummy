@@ -6,3 +6,6 @@ license = "CC0-1.0"
 
 [addresses]
 Connector = "0x2f66c09143acc52a85fec529a4e20c85"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir="language/move-stdlib", rev = "b53bb030b556a4e6ac2728d50ec7baaddf0b9a56", addr_subst = { "std" = "0x1" } }
